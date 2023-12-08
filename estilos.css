@@ -1,0 +1,116 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgba(161, 105, 0, 0.61) 30%,
+    rgba(255, 166, 0, 0.48792016806722693) 100%
+  );
+  font-family: "Holtwood One SC", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "titulo"
+    "imagen"
+    "imagen"
+    "entrada"
+    "boton";
+  grid-template-rows: 60px 1fr 1fr 1fr 1fr;
+  margin: 35px auto;
+  padding: 10px;
+  height: 85vh;
+  width: 80vw;
+  border-radius: 20px;
+  box-shadow: 0 0 30px#f6a570;
+  background-color: #cad5ad5e;
+  min-width: 500px;
+  cursor: url("cursorha.png") 0 0, pointer;
+}
+.container__grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__grid-titulo {
+  grid-area: titulo;
+  text-align: center;
+  font-size: 60px;
+}
+.container__grid-titulo > div {
+  height: 100%;
+  width: auto;
+  color: #54343f;
+  text-shadow: 0 0 20px #54343f;
+}
+.container__grid-imagen {
+  grid-area: imagen;
+  margin: 10px;
+  padding: 20px;
+}
+.container__grid-entrada {
+  grid-area: entrada;
+  margin: 10px;
+}
+.container__grid-boton {
+  grid-area: boton;
+}
+.container__grid-imagen-logo {
+  height: 100%;
+  width: 50%;
+  margin: 20px;
+}
+.container__grid-boton-boton {
+  letter-spacing: 5px;
+  font-size: 2em;
+  background: linear-gradient(to bottom, transparent, #54343f4e);
+  border-style: none;
+  border-radius: 20px;
+  padding: 20px;
+  border-bottom: 2px solid #54343f;
+  border-left: 2px solid #54343f;
+  border-right: 2px solid #54343f;
+  cursor: pointer;
+  color: #c1d19a;
+  text-shadow: 2px 2px 30px #cad5ad;
+  width: 30%;
+}
+.container__grid-entrada-entrada {
+  height: 60px;
+  font-size: 1em;
+  max-height: 50%;
+  max-width: 50%;
+  width: 30%;
+  border-radius: 5px;
+  border-style: none;
+  background: linear-gradient(to bottom, transparent, #54343f4e);
+  border-bottom: 2px solid #54343f;
+  color: #54343f;
+  text-align: center;
+}
+.entrada::placeholder {
+  color: #54343f7e;
+  text-align: center;
+}
+.entrada:focus {
+  outline: none;
+  background: linear-gradient(to bottom, transparent, #54343f95);
+}
+.container__grid-boton-boton:hover {
+  background: linear-gradient(to bottom, transparent, #54343f95);
+  text-shadow: 0px 0px 15px #cad5ad;
+}
+.container__grid-gameplay-holes {
+  max-height: 100%;
+}
+.container__grid-gameplay {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container__usuariogrid {
+  font-size: 1.5em;
+  color: #f58940;
+}
+.container__scoregrid {
+  font-size: 1.5em;
+  color: #54343f;
+}

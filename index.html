@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="icon" href="logotopo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <title>TopoTron</title>
+  </head>
+  <body>
+    <div class="container">
+      <audio
+        id="soundtrack"
+        src="https://delta.vgmsite.com/soundtracks/minecraft/aoqfyvljpe/1-01.%20Key.mp3"
+      ></audio>
+      <div class="container__grid-item container__grid-titulo" id="row1">
+        <div>TopoTron</div>
+      </div>
+      <div class="container__grid-item container__grid-imagen" id="row2">
+        <img class="container__grid-imagen-logo" src="topologo.png" />
+      </div>
+      <div class="container__grid-item container__grid-entrada" id="row4">
+        <input
+          type="hidden"
+          name="data"
+          class="container__grid-entrada-hidden-key-data"
+        />
+        <input
+          class="container__grid-entrada-entrada"
+          placeholder="Ingrese su usuario"
+          minlength="4"
+          required
+          maxlength="8"
+          id="usuario"
+          autocomplete="off"
+        />
+      </div>
+      <div class="container__grid-item container__grid-boton" id="row3">
+        <input
+          type="submit"
+          value="JUGAR"
+          class="container__grid-boton-boton"
+          id="jugar"
+        />
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="main.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
