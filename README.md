@@ -14,4 +14,4 @@ Ya dentro del juego, se encuentran 9 celdas en donde los topos aparecerán de ma
 
 ![ingresando](https://github.com/Nicolasb221/TopoTron/assets/88752910/a4ad03ca-95be-4db5-9b4d-e65f63b50fec)
 
-PageSpeed Insights: https://pagespeed.web.dev/analysis/https-dapper-selkie-4c630c-netlify-app/18ys68ic6p?form_factor=desktop
+PageSpeed Insights: https://pagespeed.web.dev/analysis/https-topotronv2-netlify-app/cmf01t5zy0?form_factor=desktop
